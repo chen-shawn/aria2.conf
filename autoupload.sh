@@ -90,7 +90,7 @@ CLEAN_UP() {
     [[ -n ${MIN_SIZE} ]] && rclone delete -v "${UPLOAD_PATH}" --max-size ${MIN_SIZE}
     [[ -n ${INCLUDE_FILE} ]] && rclone delete -v "${UPLOAD_PATH}" --exclude "*.{${INCLUDE_FILE}}"
     [[ -n ${EXCLUDE_FILE} ]] && rclone delete -v "${UPLOAD_PATH}" --include "*.{${EXCLUDE_FILE}}"
-    [[ -n ${FILTER_FILE} ]] && rclone delete -v "${UPLOAD_PATH}" --exclude "{${FILTER_FILE}}"
+    [[ -n ${FILTER_FILE} ]] && rclone delete -v "${UPLOAD_PATH}" --include "{${FILTER_FILE}}"
 }
 
 UPLOAD_FILE() {
