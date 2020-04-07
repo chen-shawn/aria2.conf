@@ -31,7 +31,7 @@ DOWNLOAD_PATH='/root/Download'
 #INCLUDE_FILE='mp4,mkv,rmvb,mov'
 
 # 排除文件类型，仅 BT 多文件下载时有效，用于过滤无用文件。排除的文件将被删除，不会上传。
-EXCLUDE_FILE='html,url,lnk,exe,RARBG.txt'
+EXCLUDE_FILE='html,url,lnk,exe,txt'
 
 ## 高级设置 ##
 
