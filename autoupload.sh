@@ -23,7 +23,7 @@ DRIVE_PATH='/Aria2'
 DOWNLOAD_PATH='/root/Download'
 
 ## 文件过滤 ##
-FILTER_FILE='RARBG*.txt'
+FILTER_FILE='*RARBG*.txt,*RARBG*.exe,UUE29.mp4,*二维码.png,*最新地址*.png,*最新地址*.txt'
 
 # 限制最低上传大小，仅 BT 多文件下载时有效，用于过滤无用文件。低于此大小的文件将被删除，不会上传。
 #MIN_SIZE=10m
@@ -32,7 +32,7 @@ FILTER_FILE='RARBG*.txt'
 #INCLUDE_FILE='mp4,mkv,rmvb,mov'
 
 # 排除文件类型，仅 BT 多文件下载时有效，用于过滤无用文件。排除的文件将被删除，不会上传。
-EXCLUDE_FILE='html,url,lnk,exe,txt'
+EXCLUDE_FILE='html,url,lnk'
 
 ## 高级设置 ##
 
